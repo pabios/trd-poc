@@ -11,7 +11,6 @@ use Doctrine\ORM\Mapping as ORM;
 #[ORM\Entity(repositoryClass: CagnotteRepository::class)]
 class Cagnotte extends  BaseEntity
 {
-
     #[ORM\Column(type: Types::DECIMAL, precision: 10, scale: 2)]
     private ?string $solde = null;
 
@@ -28,6 +27,7 @@ class Cagnotte extends  BaseEntity
     {
         $this->solde = 0;
         $this->transactions = new ArrayCollection();
+        $this->isActif = true;
     }
 
     public function getSolde(): ?string

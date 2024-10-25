@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Controller;
+namespace App\Controller\Action;
 
 use App\Domain\Service\PierreFeuilleCiseauxService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class PierreFeuilleCiseauxAction extends  AbstractController
 {
-
     public function __construct(
         private PierreFeuilleCiseauxService $pierreFeuilleCiseauxService
     ){}

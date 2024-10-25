@@ -5,7 +5,7 @@ namespace App\ApiResource;
 
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Metadata\Get;
-use App\Controller\PierreFeuilleCiseauxAction;
+use App\Controller\Action\PierreFeuilleCiseauxAction;
 use App\State\EntityClassDtoStateProcessor;
 use App\State\EntityToDtoStateProvider;
 

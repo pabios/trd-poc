@@ -11,7 +11,8 @@ use PHPUnit\Framework\MockObject\Exception;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
-// commande ==>  phpunit tests/Service/ParieTest.php --testdox
+// commande ==>
+//  phpunit tests/Service/ParieTest.php --testdox
 class ParieTest extends TestCase
 {
     private ParieService $parieService;

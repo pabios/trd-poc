@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace App\Controller\Auth;
 
 use App\ApiResource\UserDto;
 use App\Domain\Mapper\User\UserDtoToEntityMapper;
@@ -15,8 +15,6 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SignUpController extends AbstractController
 {
-
-
     public function __construct(
         private EntityManagerInterface $entityManager, private UserDtoToEntityMapper $userDtoToEntityMapper)
     {

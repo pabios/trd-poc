@@ -9,7 +9,9 @@ cd public/postman
 cd public/User_Story
 ```
 
-## Les Nom 
-1 - JEANSON Elouan
-2 - CHAHRA Sofiane
-3- BALDE  Ismaila
+## Participant
+> JEANSON Elouan
+
+> CHAHRA Sofiane
+
+> BALDE  Ismaila
